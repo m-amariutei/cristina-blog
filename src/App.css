@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.sign-up,
+.spring,
+.summer,
+.fall,
+.winter, 
+.dresses,
+.nature,
+.confortable,
+.environment,
+.color,
+.jackets,
+.socialmedia {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.spring {
+  background-image: url('/images/sp.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 108, 177);
+  font-size: 100px;
+  font-family: Tahoma, sans-serif;
+}
+
+.summer {
+  background-image: url('/images/beach.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(4, 129, 129);
+  font-size: 100px;
+  font-family: Tahoma, sans-serif;
+}
+
+.dresses {
+  background-image: url('/images/souliers.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(219, 20, 20, 0.856);
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+}
+
+.nature {
+  background-image: url('/images/wilderness.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(4, 16, 54, 0.767);
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+ }
+
+ .socialmedia {
+  background-image: url('/images/social.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(255, 255, 255, 0.767);
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+ }
+
+ .confortable {
+  background-image: url('/images/comfy2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(0, 0, 0, 0.767);
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+ }
+
+ .environment {
+  background-image: url('/images/pink-flower.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(11, 54, 3, 0.767);
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+ }
+
+ .jackets {
+  background-image: url('/images/jacket-rack.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(0, 0, 0, 0.767);
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+ }
+
+ .color {
+  background-image: url('/images/macaroons.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(214, 22, 86, 0.767);
+  font-size: 60px;
+  font-family: Tahoma, sans-serif;
+ }
+
+.fall {
+  background-image: url('/images/fall.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  font-family: Tahoma, sans-serif;
+}
+
+.winter {
+  background-image: url('/images/winter.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(3, 87, 69);
+  font-size: 100px;
+  font-family: Tahoma, sans-serif;
+}
+
+.paragraph {
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20px;
+ padding: 30px;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.paragraph2 {
+  font-family:initial;
+  font-size: 30px;
+  padding: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+.social {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.icon {
+  margin: 15px;
+}
